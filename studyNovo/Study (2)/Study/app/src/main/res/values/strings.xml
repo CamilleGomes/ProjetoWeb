@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Study</string>
+    <string name="title_activity_conta_cadastrar">ContaCadastrar</string>
+    <string name="title_activity_conta_entrar">ContaEntrar</string>
+    <string name="title_activity_desafio_menu">DesafioMenu</string>
+    <string name="title_activity_desafio_criar">DesafioCriar</string>
+    <string name="title_activity_desafio_juntese">DesafioJuntese</string>
+    <string name="title_activity_desafios_meus">DesafiosMeus</string>
+    <string name="title_activity_conta_menu">ContaMenu</string>
+    <string name="title_activity_grupo_estudos">GrupoEstudos</string>
+</resources>

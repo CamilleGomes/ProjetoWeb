@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Study"
+        tools:targetApi="31">
+        <activity
+            android:name=".DesafioMeus"
+            android:exported="false"
+            android:label="@string/title_activity_desafios_meus"
+            android:theme="@style/Theme.Study" />
+        <activity
+            android:name=".DesafioJuntese"
+            android:exported="false"
+            android:label="@string/title_activity_desafio_juntese"
+            android:theme="@style/Theme.Study" />
+        <activity
+            android:name=".DesafioCriar"
+            android:exported="false"
+            android:label="@string/title_activity_desafio_criar"
+            android:theme="@style/Theme.Study" />
+        <activity
+            android:name=".DesafioMenu"
+            android:exported="false"
+            android:label="@string/title_activity_desafio_menu"
+            android:theme="@style/Theme.Study" />
+        <activity
+            android:name=".ContaEntrar"
+            android:exported="false"
+            android:label="@string/title_activity_conta_entrar"
+            android:theme="@style/Theme.Study" />
+        <activity
+            android:name=".ContaCadastrar"
+            android:exported="false"
+            android:label="@string/title_activity_conta_cadastrar"
+            android:theme="@style/Theme.Study" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Study">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
